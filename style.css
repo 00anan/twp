@@ -10,7 +10,7 @@
 
 .header {
 	padding: 80px;
-	margin: 20px;
+	margin: 25px 60px;
  	text-align: center;
 	background: #293A4A;
 	color: white;
@@ -64,23 +64,18 @@ body {
     color: #2274a5;
 }
 
-
-
-
-.home {
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	background: #293A4A;
-	color:#e7dfc6;
-	padding: 8px 20px;
-	border-radius: 5px;
-	display: inline-block;
-	border: 6px solid #4d6f8f;
-	font-size: 20px;
+.headimg p {
+	color: black;
+	font-size:12px;
+	margin: 0px 30px 50px;
 }
 
-.home a:hover {
-	background: #92acc6;
-	color: #e7dfc6;
+.headimg img{
+	width: calc(100% - 40px);
+	border-color:transparent;
+	margin: 20px;
+	display: block;
+	border-radius: 10px;
 }
 
 h1 {
