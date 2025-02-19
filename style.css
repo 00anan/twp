@@ -72,7 +72,7 @@ body {
 
 .headimg img{
 	width: calc(100% - 40px);
-	border-color:transparent;
+	border-color: #e7dfc6;
 	margin: 20px;
 	display: block;
 	border-radius: 10px;
