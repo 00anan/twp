@@ -477,12 +477,16 @@ img {
 
 
 /* theory image + caption setup */
+.ppic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .ppic img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border: 3px solid var(--tdblue);
-    display: flex;
-    justify-content: center;
 }
 
 .ppic p {
